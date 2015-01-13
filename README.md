@@ -7,6 +7,7 @@ Adding classpath and sourcepath in IDE is cumbersome. jbuildTool use "find" comm
 
 How to use?
 =============
+Please first install prerequisite: gawk.
 Copy ./cfg/empty.cfg and edit your cfg files in jbuildTool/xxx.cfg.
 in the directory of jbuildTool, execute the following command:  
 
