@@ -8,7 +8,7 @@ jbuildTool use "find" command to handle this.
 
 How to use?
 =============
-Please first install prerequisite: gawk.  
+Install the prerequisite: gawk.  
 Copy ./cfg/empty.cfg ot ./cfg/xxx.cfg and edit your cfg files in jbuildTool/xxx.cfg.
 in the directory of jbuildTool, execute the following command:  
 
