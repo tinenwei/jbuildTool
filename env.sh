@@ -698,9 +698,8 @@ j_run_debug()
 	if [ -z $JAVA_MAIN_CLASS ]; then
 		echo "No Main Class !!"
 		return 0
-	fi
-	
-	debug JAVA_ALL_CLASS_PATH
+	fi	
+
 	
 	if [ -d $JNI_DIR ]; then
 		java \
@@ -723,8 +722,6 @@ j_run()
 		echo "No Main Class !!"
 		return 0
 	fi
-	
-	debug JAVA_ALL_CLASS_PATH
 	
 	if [ -d $JNI_DIR ]; then
 		java \
