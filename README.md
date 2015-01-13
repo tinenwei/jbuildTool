@@ -46,7 +46,7 @@ for cleaning the projects, executing the following command:
 
 ./jbuildTool/xxx.cfg is a top cfg file for the general paths of libaries and source codes.
 For the current project, you can use ./project.cfg in the directory of current project to 
-define your desired path of libraries and source codes.   
+add your desired path of libraries and source codes.   
 The example for cfg files is in ./cfg/jetty_7.6.12.cfg and ./cfg/spring_3.0.7.cfg.  
 You can use j_new_war_app to start a servlet application. (see ./cfg/jetty_7.6.12.cfg)   
 You can use j_new_jni_app to start a java jni project.
