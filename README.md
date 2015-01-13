@@ -9,7 +9,7 @@ jbuildTool use "find" command to handle this.
 How to use?
 =============
 Install the prerequisite: gawk.  
-Copy ./cfg/empty.cfg ot ./cfg/xxx.cfg and edit your cfg files in jbuildTool/xxx.cfg.
+Copy ./cfg/empty.cfg to ./cfg/xxx.cfg and edit your desired the paths of libraries and source in ./cfg/xxx.cfg.
 in the directory of jbuildTool, execute the following command:  
 
     . env.sh cfg/xxx.cfg
