@@ -1,7 +1,7 @@
 What is jbuildTool
 =============
 jbuildTool is written in bash shell script.  
-It use shell commands to build java source codes.  
+It uses shell commands to build java source codes.  
 and you can use commands to debug and run projects.  
 Adding classpath and sourcepath in IDE is cumbersome.  
 jbuildTool use "find" command to handle this.  
