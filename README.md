@@ -18,9 +18,16 @@ Start a new project by executing the following command:
 
     j_new_app
 
-This command will ask you to enter 'Directory Name', 'Package Name' and 'Main-Class'.
+This command will ask you to enter 'Directory Name', 'Package Name' and 'Main-Class'.  
+('Main-Class' doesn't contain package name)
+for example:  
+
+    Directory Name: Test
+    Package Name: com.example.test
+    Main-Class: MyTest
+
 After entering these, it will create a template of "hello world" project.
-And execute the following command:
+Execute the following command:
 
     j_build 
 
@@ -32,8 +39,12 @@ For debugging the program, executing the following command:
 
     j_debug
 
+for cleaning the projects, executing the following command:
 
-./jbuildTool/xxx.cfg is a top cfg for the general paths of libaries and source codes.
+    j_clean
+
+
+./jbuildTool/xxx.cfg is a top cfg file for the general paths of libaries and source codes.
 For the current project, you can use ./project.cfg in the directory of current project to 
 define your desired path of libraries and source codes.   
 The example for cfg files is in ./cfg/jetty_7.6.12.cfg and ./cfg/spring_3.0.7.cfg.  
