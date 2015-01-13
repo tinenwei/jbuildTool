@@ -19,7 +19,7 @@ Start a new project by executing the following command:
     j_new_app
 
 This command will ask you to enter 'Directory Name', 'Package Name' and 'Main-Class'.  
-('Main-Class' doesn't contain package name)
+('Main-Class' doesn't contain package name)  
 for example:  
 
     Directory Name: Test
